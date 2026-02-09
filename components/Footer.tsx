@@ -33,6 +33,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/pricing" className="text-sm text-gray-300 hover:text-white transition-colors">
+                  Pricing
+                </Link>
+              </li>
+              <li>
                 <Link href="/products" className="text-sm text-gray-300 hover:text-white transition-colors">
                   Products
                 </Link>
@@ -50,10 +55,26 @@ export default function Footer() {
               Services
             </h3>
             <ul className="space-y-3">
-              <li className="text-sm text-gray-300">Web Development</li>
-              <li className="text-sm text-gray-300">App Development</li>
-              <li className="text-sm text-gray-300">Digital Marketing</li>
-              <li className="text-sm text-gray-300">UI/UX Design</li>
+              <li>
+                <Link href="/pricing#web-design" className="text-sm text-gray-300 hover:text-white transition-colors">
+                  Web Design
+                </Link>
+              </li>
+              <li>
+                <Link href="/pricing#hosting" className="text-sm text-gray-300 hover:text-white transition-colors">
+                  Web Hosting
+                </Link>
+              </li>
+              <li>
+                <Link href="/pricing#mobile-app" className="text-sm text-gray-300 hover:text-white transition-colors">
+                  Mobile Apps
+                </Link>
+              </li>
+              <li>
+                <Link href="/pricing#ecommerce" className="text-sm text-gray-300 hover:text-white transition-colors">
+                  E-Commerce
+                </Link>
+              </li>
             </ul>
           </div>
 
